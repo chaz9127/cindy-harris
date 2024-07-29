@@ -1,0 +1,43 @@
+.featured {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 2rem 3rem;
+    background-color: rgba(246, 161, 146, .3);
+    
+    .featured-detail {
+        width: 50%;
+    }
+
+    .book-cover {
+        text-align: center;
+    }
+
+    .details {
+        .detail-header {
+            font-size: 1.2rem;
+            color: rgb(148, 93, 84);
+            display: block;
+            margin-bottom: 1rem;
+        }
+        .title {
+            font-family: serif;
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        .description {
+            color: rgb(42, 42, 42);
+        }
+        button {
+            background-color: rgb(156, 98, 88);
+            color: white;
+            border: none;
+            border-radius: 3px;
+            padding: 1rem .5rem;
+
+            i {
+                
+            }
+        }
+    }
+}
