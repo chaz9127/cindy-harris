@@ -1,9 +1,13 @@
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+    top: 0;
     
     .logo {
         font-family: "Bebas Neue", sans-serif;
