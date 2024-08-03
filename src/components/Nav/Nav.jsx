@@ -25,7 +25,6 @@ const Nav = () => {
 
     const activeClass = (path) => {
         const hash = window.location.hash.split('#')[1];
-        console.log(path, hash === path, (!hash && path === 'root'), (hash === path) || (!hash && path === 'root'));
         const isActive = (hash === path) || (!hash && path === 'root');
 
         return isActive ? 'active' : '';
